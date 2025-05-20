@@ -27,7 +27,7 @@ nav a:hover {
     color: rebeccapurple;
 }
 .book {
-    background-color: red;
+    background-color: aqua;
     color: blue;
     text-decoration: none;
 }
@@ -50,7 +50,7 @@ h4 {
 }
 .msg, .msg h2, .msg p {
  background-color: green;
- color: red;
+ color: brown;
 }
 footer, footer a {
     background-color: blanchedalmond;
