@@ -18,6 +18,17 @@ body {
 
 background-color: #fcfbfb;
 text-decoration: none;
+margin: 0;
+padding: 0;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+main section img {
+    box-sizing: border-box;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -29,6 +40,8 @@ nav a:hover {
 .home-title {
     color: rebeccapurple;
     font-family: "Bebas Neue";
+    font-size: 2em;
+    margin-top: 10px;
 }
 .msg h2 {
     font-family: "Bebas Neue";
@@ -37,6 +50,10 @@ nav a:hover {
     background-color: aqua;
     color: blue;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 h4 {
     background-color: yellow;
@@ -46,6 +63,14 @@ h4 {
     background-color: blue;
     color: red;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px;
+    color: black;
 }
 .book:hover {
     background-color: pink;
@@ -64,14 +89,16 @@ footer, footer a {
     color: blueviolet;
     text-decoration: none;
 }
-.icon .logo {
+.icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
 }
 nav a {
     text-decoration: none;
+    padding: 35px;
 }
 footer p {
     font-size:1.2em;
@@ -85,4 +112,21 @@ a:hover {
 }
 .content {
     max-width: 1600px;
+}
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.msg {
+    line-height: 1.5em;
+}
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card .campingcard .rapids-card {
+    margin: 200px 0;
 }
