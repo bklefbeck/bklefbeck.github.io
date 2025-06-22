@@ -1,26 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&family=Bebas+Neue:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #e3e2e2   ;
-  --secondary-color: #fff ;
-  --accent1-color: #000;
-  --accent2-color: #4B0082;
+ --primary-color: #022F40   ;
+  --secondary-color: #38aecc ;
+  --accent1-color: #E7C24F;
+  --accent2-color: #0090c1;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "'Montserrat', sans-serif";
-  --paragraph-font: 'Inter', sans-serif;
+  --heading-font: Tagesschrift;
+  --paragraph-font: "Bebas Neue", Nunito, Lora;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: black; /* headlines on a colored background */ 
-  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: black; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #e3e2e2  ;
+   --headline-color-on-white: #022F40;  /* headlines on a white background */ 
+  --headline-color-on-color: #0090C1; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #E7C24F; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #396E94  ;
   --nav-link-color: #396E94;
-  --nav-background-color: #fff;
-  --nav-hover-link-color: black;
-  --nav-hover-background-color: #4B0082;
+  --nav-background-color: #E7C24F;
+  --nav-hover-link-color: #022F40;
+  --nav-hover-background-color: #0090C1;
 }
 
 
@@ -32,6 +35,10 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+}
+.hero-img {
+    width: 25px;
+    align-self: center;
 }
 img {
   display: block;
@@ -106,6 +113,10 @@ nav  {
   list-style-type: none;
   display: flex;
 
+}
+.social {
+    width: 20px;
+    text-decoration: none;
 }
 nav a {
   padding:1em;
