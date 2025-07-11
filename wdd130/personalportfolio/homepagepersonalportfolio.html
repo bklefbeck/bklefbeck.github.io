@@ -18,11 +18,61 @@
 
         </nav>
     </header>
-    
-<div id="hero">
-  <div id="hero-box">
-      <img id="hero-img" src="images/baileyemployeephoto.jpg" alt="Bailey BYUI Employee photo">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+
+<div class="card">
+  <img src="images/baileyemployeephoto.jpg" alt="Bailey Klefbeck BYUI Employee Photo" style="width:100%">
+  <h1>Bailey Klefbeck</h1>
+  <p class="title">IT Support Technician</p>
+  <p>Brigham Young University Idaho</p>
+  <div style="margin: 24px 0;">
+    <a href="images/linkedin.png"><i class="fa fa-linkedin"></i></a>  
+
   </div>
+  <p><button>Contact</button></p>
+</div>
+</div>
+
   <section id="hero-msg">
       <h2 class="home-title">Why Employ Me?</h2>
       <h4>This Website is just as useful for me as it is for anyone else as any future employers will be able to access this website as a means to gain information. It will be for them know if i am qualified to be hired or what i will be able to bring to use to their company. Obviously this is something only i can offer them, there is not another place that will have the information about me if im not writing it myself. I will gladly be able to update this as time goes on and i get more and more experience in my field and with more opportunities as i see fitting. 
@@ -38,18 +88,31 @@ I have been super interested in tech support and computers ever since i was youn
     PAST EMPLOYMENTS
 </h2>
 </body>
-<main class="home-grid">
-    <section class="byui-home">
-        <img class="card-img" src="images/byuilogo.png" alt="BYU-I Logo">
-          <a class="lower-text" >Brigham Young University Idaho IT Tier 2 Team</a>
-        <h3>Brigham Young University Idaho | Rexburg, Idaho</h3>
-    </section>
-    <section class="rhs-home">
-        <img class="card-img" src="images/royalhighschool.png" alt="royal high school logo">
-          <a class="lower-text" >Royal High School IT Club And Elective</a>
-        <h3>Royal High School | Royal City, Washington</h3>
-    </section>
-    
+
+        <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images/royalhighschool.png" alt="Royal High School Logo" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Royal High School | Royal City, Washington</h1>
+      <p>2016-2020</p>
+      <p>Royal High School IT Club And Elective</p>
+    </div>
+  </div>
+</div>
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images/byuilogo.png" alt="BYUI logo" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Brigham Young University Idaho | Rexburg, Idaho</h1>
+      <p>2023-Present</p>
+      <p>IT Tier 2 Tech Support Technician</p>
+    </div>
+  </div>
+</div>
     
 </main>
 <footer>
