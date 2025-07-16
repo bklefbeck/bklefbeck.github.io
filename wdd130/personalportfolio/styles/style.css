@@ -273,18 +273,16 @@ img {
 .social {
   max-width :20px;
   text-decoration: none;
-  padding-top: 15px;
+  padding: 25px 50px;
   margin-right: 20px;
+  margin-left: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 footer {
   padding: 25px 50px;
-  margin-top: 200px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  margin-top: 100px;
   background-color: #E7C24F;
   color: #38aecc;
   text-decoration: none;
