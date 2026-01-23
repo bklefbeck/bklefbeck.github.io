@@ -40,3 +40,17 @@ h2 {
     padding-bottom: 20px;
     border-bottom: 1px solid #ccc;
 }
+ol{
+    font-size: 15px;
+    padding-left: 60px;
+    padding-right: 40px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ol li{
+    margin-bottom: 20px;
+}
+.byui_logo {
+    width: 100%;
+}
