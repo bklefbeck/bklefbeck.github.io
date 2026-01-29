@@ -8,14 +8,20 @@ const closeButton = modal.querySelector('.close-viewer');
 gallery.addEventListener('click', openModal);
 
 function openModal(e) {
-    
-// Code to show modal  - Use event parameter 'e'   
-    
+    const img = e.target;
+    const src = img.getAttribute('src');
+
+    const alt = img.getAttribute('alt');
+    const full = src.replace('sm', 'full');
+    modalImage.src = full;
+    modalImage.alt = alt;
+    modal.showModal();
 }
 // Close modal on button click
 closeButton.addEventListener('click', () => {
     modal.close();
 });
+
 
 // Close modal if clicking outside the image
 modal.addEventListener('click', (event) => {
@@ -23,4 +29,13 @@ modal.addEventListener('click', (event) => {
         modal.close();
     }
 });
-          
+
+function sum(n1, n2){
+    console.log(n1 + n2);
+
+}
+
+let add = function(num1, num2){
+    console.log(num1, num2);
+}
+add(5,5);
